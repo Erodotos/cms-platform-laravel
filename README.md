@@ -60,8 +60,38 @@ This Project's implementation is based on the following tutorial mini-series: ht
 </p>
 
 
-To complete this Project we have primarily used Laravel, which is a PHP Web Framework. Also, we have extensively used the CSS Framework [Bootstrap](https://getbootstrap.com/).
+To complete this Project we have primarily used [Laravel](https://laravel.com/), which is a PHP Web Framework. Also, we have extensively used the CSS Framework [Bootstrap](https://getbootstrap.com/).
 
 ## Deployment
 
+To deploy this project, we need to have installed PHP, Composer, Laravel, and MySQL. After we ensure that everything is running correctly, follow the steps below.
+
+```shell
+$ git clone https://github.com/Erodotos/cms-platform-laravel.git
+$ cd cms-platform-laravel
+$ composer install
+$ npm install
+$ cp .env.example .env
+```
+Now we have to fill the copied .env file using our local database settings. For further explanation, view the example below.
+
+```text
+DB_CONNECTION=mysql       //specify database
+DB_HOST=127.0.0.1         //specify host address
+DB_PORT=3306              //specify database port
+DB_DATABASE=cms-project   //specify database name
+DB_USERNAME=root          //specify database username
+DB_PASSWORD=1234          //specify database password
+```
+After configuring the .env file, we are ready to run the project. There are a few more steps below.
+
+```
+$ php artisan key:generate
+$ php artisan migrate
+$ php artisan serve
+```
+
+Now we are ready to eplore the CMS project via our browser. In the next section we present a demo of the final product.
+
 ## Demonstration
+
