@@ -53,6 +53,13 @@ This Project's implementation is based on the following tutorial mini-series: ht
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
+<p align="center">
+  <a href="https://getbootstrap.com/">
+    <img src="https://getbootstrap.com/docs/5.0/assets/brand/bootstrap-logo-shadow.png" alt="Bootstrap logo" width="200" height="165">
+  </a>
+</p>
+
+
 To complete this Project we have primarily used Laravel, which is a PHP Web Framework. Also, we have extensively used the CSS Framework [Bootstrap](https://getbootstrap.com/).
 
 ## Deployment
