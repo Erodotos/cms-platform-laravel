@@ -6,7 +6,6 @@
 * [Technologies](#technologies)
 * [Deployment](#deployment)
 * [Demonstation](#demonstration )
-* [Licence](#licence)
 
 ## About
 
