@@ -95,4 +95,6 @@ Now we are ready to eplore the CMS project via our browser. In the next section 
 
 ## Demonstration
 
+Click on the Image/Link below to view the demonstration video.
+
 [![Demo Video](https://i.imgur.com/zvXm2UH.png)](https://youtu.be/jGDahBu8W0E)
